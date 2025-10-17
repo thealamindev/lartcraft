@@ -1,9 +1,9 @@
-
+import { Button } from "@/components/ui/button"
 
 const Homepage = () => {
   return (
     <>
-    LArtCraft
+   <Button>Hello</Button>
     </>
   )
 }
