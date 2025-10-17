@@ -13,16 +13,15 @@ const Header = () => {
     <div className="wrapper flex-between">
         <div className="flex-start">
             <Link href="/" className="flex-start">
-            <Image 
+            <Image
+            className="rounded-2xl"
                 src="/images/logo.svg" 
                 alt={`${APP_NAME} Logo`} 
-                width={48} 
-                height={48} 
+                width={70} 
+                height={70} 
                 priority={true}
             />
-            <span className="hidden lg:block font-bold text-2xl ml-3">
-                {APP_NAME}
-            </span>
+           
             </Link>
         </div>
         <div className="space-x-2">

@@ -38,9 +38,9 @@ const ModeToggle = () => {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="border p-2">
-        <DropdownMenuLabel>Appearance</DropdownMenuLabel>
         <DropdownMenuSeparator/>
         <DropdownMenuCheckboxItem
+        className="cursor-pointer border-b p-2 hover:outline-none"
           checked={theme === "system"}
           onClick={() => setTheme("system")}
         >
@@ -48,12 +48,14 @@ const ModeToggle = () => {
         </DropdownMenuCheckboxItem>
 
         <DropdownMenuCheckboxItem
+         className="cursor-pointer border-b p-2 hover:outline-none"
           checked={theme === "light"}
           onClick={() => setTheme("light")}
         >
           Light
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
+         className="cursor-pointer border-b p-2 hover:outline-none"
           checked={theme === "dark"}
           onClick={() => setTheme("dark")}
         >
