@@ -34,6 +34,7 @@ const sampleData = {
       isFeatured: true,
       banner: 'banner-2.jpg',
     },
+
     {
       name: 'Tommy Hilfiger Classic Fit Dress Shirt',
       slug: 'tommy-hilfiger-classic-fit-dress-shirt',
@@ -104,5 +105,6 @@ const sampleData = {
     },
   ],
 };
+
 
 export default sampleData;
